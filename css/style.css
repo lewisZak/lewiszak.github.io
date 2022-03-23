@@ -1,0 +1,192 @@
+/* @my name is Zak Lewis
+@this is my own work
+@I am a student as Rostrevor College
+@March 2022
+@this is my test solution */
+
+
+/* main First CSS */
+body
+{
+    background-color:plum;
+}
+h1.mainTitleAndImage
+{
+    text-align:center;
+}
+img.mainTitleAndImage
+{
+    width:300px;
+    margin-left:50%;
+    transform:translate(-50%,0px);
+}
+
+
+/* All Headers */
+#headerOne
+{
+    color:red;
+}
+#headerTwo
+{
+    color:green;
+}
+#headerThree
+{
+    color:blue;
+}
+#headerFour
+{
+    color:yellow;
+}
+#headerFive
+{
+    color:black;
+}
+
+
+/* Cats CSS for differing sizes */
+#catImageDiv
+{
+    display:flex;
+    gap:20px;
+}
+#catImageOne
+{
+    width:300px;
+    height:300px;
+}
+#catImageTwo
+{
+    width:200px;
+    height:200px;
+}
+#catImageThree
+{
+    width:100px;
+    height:100px;
+}
+
+
+/* CSS tables */
+.tableBorder
+{
+    border:1px black solid;
+    width:200px;
+    height:100px;
+    text-align:center;
+}
+.tableBorder2
+{
+    border:2px black solid;
+}
+
+
+/* Rostrevor Building Image CSS */
+#rostrevorLinkImage
+{
+    width:300px;
+}
+
+
+
+/* Puppy Eyes CSS for rotation and shadow */
+#puppyDogEyesOne
+{
+    margin-left:50px;
+    transform:rotate(-20deg);
+    box-shadow: 5px 10px 5px gray;
+}
+#puppyDogEyesTwo
+{
+    margin-left:100px;
+    transform:rotate(20deg);
+    box-shadow: 5px 10px 5px gray;
+}
+
+
+
+/* CSS for all flags and their colours */
+#flagRow
+{
+    display:flex;
+    gap:20px;
+}
+
+#germanFlag
+{
+    display:flex;
+    width:450px;
+    height:300px;
+    flex-direction:column;
+}
+#germanBlack
+{
+    width:450px;
+    height:100px;
+    background-color:black;
+}
+#germanYellow
+{
+    width:450px;
+    height:100px;
+    background-color:yellow;
+}
+#germanRed
+{
+    width:450px;
+    height:100px;
+    background-color:red;
+}
+
+#frenchFlag
+{
+    display:flex;
+    width:450px;
+    height:300px;
+    flex-direction:row;
+}
+#frenchBlue
+{
+    width:150px;
+    height:300px;
+    background-color:blue;
+}
+#frenchWhite
+{
+    width:150px;
+    height:300px;
+    background-color:white;
+}
+#frenchRed
+{
+    width:150px;
+    height:300px;
+    background-color:red;
+}
+
+#romaniaFlag
+{
+    display:flex;
+    width:450px;
+    height:300px;
+    flex-direction:row;
+}
+#romaniaBlue
+{
+    width:150px;
+    height:300px;
+    background-color:blue;
+}
+#romaniaYellow
+{
+    width:150px;
+    height:300px;
+    background-color:yellow;
+}
+#romaniaRed
+{
+    width:150px;
+    height:300px;
+    background-color:red;
+}
