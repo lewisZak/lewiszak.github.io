@@ -213,13 +213,25 @@ img.mainTitleAndImage
 {
     width:20vw;
     float:right;
-    margin-top:-350px;
+    margin-top:-200px;
 }
 #monkeyImage
 {
     width:20vw;
     float:left;
-    margin-top:-350px;
+    margin-top:-200px;
+}
+#juancitoImagee
+{
+    width:20vw;
+    float:right;
+    margin-top:-450px;
+}
+#monkeyImagee
+{
+    width:20vw;
+    float:left;
+    margin-top:-450px;
 }
 
 /* CSS for Animal Selection Iframe */
