@@ -8,7 +8,7 @@
     <head>
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
-    <body>
+    <body id="mainBody">
         <h1 class="mainTitleAndImage">Zak LEWIS</h1>
         <img class="mainTitleAndImage" src="images/beautifulRiver.png">
 
@@ -89,5 +89,12 @@
                 <div id="romaniaRed"></div>
             </div>
         </div>
+
+
+        <!--  Seventh section with images triggering iFrames  -->
+        <h1 id="headerSeven">I can make an image change an iFrame</h1>
+        <iframe src="html/chooseananimal.html" name="animalIframe" id="animalDisplayIframe"></iframe>
+        <a href="html/monkeys.html" target="animalIframe"><img src="images/smilingMonkey.png" id="monkeyImage"></a>
+        <a href="html/honkeys.html" target="animalIframe"><img src="images/juancitoHonkey.png" id="juancitoImage"></a>
     </body>
 </html>
