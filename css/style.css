@@ -6,7 +6,7 @@
 
 
 /* main First CSS */
-body
+#mainBody
 {
     background-color:plum;
 }
@@ -40,6 +40,14 @@ img.mainTitleAndImage
     color:yellow;
 }
 #headerFive
+{
+    color:black;
+}
+#headerSix
+{
+    color:black;
+}
+#headerSeven
 {
     color:black;
 }
@@ -116,77 +124,129 @@ img.mainTitleAndImage
 #germanFlag
 {
     display:flex;
-    width:450px;
-    height:300px;
+    width:300px;
+    height:150px;
     flex-direction:column;
 }
 #germanBlack
 {
-    width:450px;
-    height:100px;
+    width:300px;
+    height:50px;
     background-color:black;
 }
 #germanYellow
 {
-    width:450px;
-    height:100px;
+    width:300px;
+    height:50px;
     background-color:yellow;
 }
 #germanRed
 {
-    width:450px;
-    height:100px;
+    width:300px;
+    height:50px;
     background-color:red;
 }
 
 #frenchFlag
 {
     display:flex;
-    width:450px;
-    height:300px;
+    width:300px;
+    height:150px;
     flex-direction:row;
 }
 #frenchBlue
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:blue;
 }
 #frenchWhite
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:white;
 }
 #frenchRed
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:red;
 }
 
 #romaniaFlag
 {
     display:flex;
-    width:450px;
-    height:300px;
+    width:300px;
+    height:150px;
     flex-direction:row;
 }
 #romaniaBlue
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:blue;
 }
 #romaniaYellow
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:yellow;
 }
 #romaniaRed
 {
-    width:150px;
-    height:300px;
+    width:100px;
+    height:150px;
     background-color:red;
+}
+
+
+
+/* CSS for animals and iFrames */
+#animalDisplayIframe
+{
+    width:500px;
+    height:500px;
+    margin-left:50%;
+    transform:translate(-50%,0);
+}
+#juancitoImage
+{
+    width:20vw;
+    float:right;
+    margin-top:-350px;
+}
+#monkeyImage
+{
+    width:20vw;
+    float:left;
+    margin-top:-350px;
+}
+
+/* CSS for Animal Selection Iframe */
+#chooseAnimalBody
+{
+    background-color:aliceblue;
+}
+#questionManImage
+{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* CSS for Monkey & Honkey Iframe */
+.photosOfAnimals
+{
+    width:200px;
+    height:200px;
+}
+
+#honkeyBody
+{
+    background-color:brown;
+}
+
+#monkeyBody
+{
+    background-color:limegreen;
 }
